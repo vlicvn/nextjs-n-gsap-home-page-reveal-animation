@@ -14,7 +14,7 @@ export default function Preloader({ counter }: PreloaderProps) {
 
       {/* Progress Bar */}
       <div
-        className="hide absolute left-0 top-[calc(50%+4px)] -translate-y-1/2 bg-white h-0.5 transition-all duration-75 ease-out z-10"
+        className="hide absolute left-0 top-[calc(50%+4px)] -translate-y-1/2 bg-white h-1 transition-all duration-75 ease-out z-10"
         style={{ width: `${counter}%` }}
       ></div>
 
